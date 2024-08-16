@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap');
+
+.contentContacto{
+    padding-bottom:400px;  
+}
+
+@media (max-width:990px){
+    .contentContacto{
+        padding-bottom:120px;
+    }
+}
+
+.contentContacto h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color:#0454A3;
+    max-width:346px;
+    margin: auto;
+    line-height: 1.5;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 180px;
+}
+
+.contentPerfilContacto img{
+    z-index: 2;
+    position: relative;
+    width:100%;
+    height: auto;
+    opacity: 1;
+}
+@media (max-width:992px){
+    .contentContacto h2{
+        margin-bottom: 95px;
+    }
+    .contentPerfilContacto{
+        margin: auto;
+        text-align: center;
+    }
+    .contentPerfilContacto img{
+        width: 70%;
+        margin-bottom:90px;
+    }
+}
+
+.contentFormContacto{
+    background: white;
+    background: #FEFEFE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 30px 60px 90px 45px;
+    position: relative;
+    z-index: 2;
+}
+.contentFormContacto label{
+    font-family: 'Open Sans', sans-serif;
+    color: #4F4E4E;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.contentFormContacto input{
+    margin-bottom: 26px;
+    border: none;
+    border-radius: 5px;
+    background: #E8E8E8;
+    width: 100%;
+    height: 34px;
+}
+.contentFormContacto textarea{
+    background: #E8E8E8;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 165px;
+    margin-bottom: 40px;
+}
+.contentFormContacto button{
+    border: none;
+    padding: 10px 30px;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    background: #0454A3;
+}
+.button{
+    max-width:120px;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    border-radius: 0!important;
+    height: 45px!important;
+    background: #0454A3!important; 
+}
+.sent{
+    color: rgb(28, 121, 28);
+    font-weight: 600;
+}
